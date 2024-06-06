@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+main {
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header */
+header {
+    background-color: rgb(40, 36, 36);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px solid white;
+}
+
+/* quote section */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-container {
+    background-color: white;
+    width: 40vw;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 8px 16px 0 rgba(80, 80, 80, 0.2), 0 12px 40px 0 rgba(86, 86, 86, 0.19);
+}
+
+.quote {
+    flex: 9;
+}
+
+button {
+    flex: 1;
+    margin: 0 300px;
+    background-color: rgb(40, 36, 36);
+    border: none;
+    color: white;
+    border-radius: 7px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+}
+
+.description {
+    flex: 3;
+    font-size: 2rem;
+    font-weight: lighter;
+    font-family: Cinzel;
+    margin-top: 20px;
+}
+
+.author {
+    flex: 1;
+    color: red;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: Dancing Script;
+}
