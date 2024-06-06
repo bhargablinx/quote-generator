@@ -7,7 +7,6 @@ let writer = "";
 
 btn.addEventListener('click', () => {
     let num = Math.floor(Math.random() * 6);
-    console.log(num)
     switch(num) {
         case 0:
             text = "Genius is one percent inspiration and ninety-nine percent perspiration.";
