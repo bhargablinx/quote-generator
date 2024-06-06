@@ -36,26 +36,30 @@ header {
 .quote-container {
     background-color: white;
     width: 40vw;
-    height: 400px;
+    height: auto;
     margin: auto;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 20px;
     box-shadow: 0 8px 16px 0 rgba(80, 80, 80, 0.2), 0 12px 40px 0 rgba(86, 86, 86, 0.19);
 }
 
 .quote {
-    flex: 9;
+    /* flex: 9; */
 }
 
 button {
-    flex: 1;
-    margin: 0 300px;
+    flex-shrink: 0;
+    margin: 50px;
     background-color: rgb(40, 36, 36);
     border: none;
     color: white;
     border-radius: 7px;
+    width: 150px;
+    
+    
 }
 
 .quote {
@@ -79,4 +83,5 @@ button {
     font-size: 1.5rem;
     font-style: italic;
     font-family: Dancing Script;
+    margin-top: 20px;
 }
